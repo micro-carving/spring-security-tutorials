@@ -13,6 +13,8 @@
     <modules>
         <module>spring-security-servlet</module>
         <module>spring-security-reactive</module>
+        <module>spring-security-oauth-5-2-migrate</module>
+        <module>spring-security-oauth-2-4-migrate</module>
     </modules>
 
     <properties>
