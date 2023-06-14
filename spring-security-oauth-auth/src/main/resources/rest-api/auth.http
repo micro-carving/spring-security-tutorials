@@ -1,0 +1,8 @@
+### 请求获取授权码（下面的连接需要通过浏览器打开，回车跳转到登录页，输入登录账密获取授权码，无法在 idea 中测试）
+GET http://localhost:8080/oauth/authorize?client_id=client_id&response_type=code
+
+### 通过授权码获取令牌（请求格式：http://clientId:clientSecret@host:port/oauth/token）
+POST http://client_id:client_secret@localhost:8080/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code&code=dzm8wU
